@@ -1,0 +1,338 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "68cab859339ef175df75768e84ebcd9c",
+    "packages": [
+        {
+            "name": "mustache/mustache",
+            "version": "v2.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/mustache.php.git",
+                "reference": "64c28cc73e01d5edcef7de8cb2b16782615f648a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/64c28cc73e01d5edcef7de8cb2b16782615f648a",
+                "reference": "64c28cc73e01d5edcef7de8cb2b16782615f648a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "~1.6",
+                "phpunit/phpunit": "~3.7|~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "A Mustache implementation in PHP.",
+            "homepage": "https://github.com/bobthecow/mustache.php",
+            "keywords": [
+                "mustache",
+                "templating"
+            ],
+            "time": "2015-04-01 06:37:33"
+        },
+        {
+            "name": "primozcigler/envato-wordpress-theme-updater",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/primozcigler/Envato-WordPress-Theme-Updater.git",
+                "reference": "65b3fdb271e9241fdfa6a4ff2d0066180e149394"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/primozcigler/Envato-WordPress-Theme-Updater/zipball/65b3fdb271e9241fdfa6a4ff2d0066180e149394",
+                "reference": "65b3fdb271e9241fdfa6a4ff2d0066180e149394",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Primoz Cigler",
+                    "email": "primoz@proteusnet.com"
+                }
+            ],
+            "description": "Class to add the auto-updating support to the premium WordPress themes available on the ThemeForest.",
+            "support": {
+                "source": "https://github.com/primozcigler/Envato-WordPress-Theme-Updater/tree/master"
+            },
+            "time": "2015-05-28 09:41:03"
+        },
+        {
+            "name": "primozcigler/wordpress-one-click-demo-install",
+            "version": "v0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/primozcigler/wordpress-one-click-demo-install.git",
+                "reference": "6c87ef5aeaf3413fb3be533b5bf4cf8991d778ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/primozcigler/wordpress-one-click-demo-install/zipball/6c87ef5aeaf3413fb3be533b5bf4cf8991d778ca",
+                "reference": "6c87ef5aeaf3413fb3be533b5bf4cf8991d778ca",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "importer/radium-importer.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank Gitonga"
+                },
+                {
+                    "name": "Primoz Cigler",
+                    "email": "primoz@proteusnet.com"
+                }
+            ],
+            "description": "Once Click Demo Content Install for WordPress.",
+            "support": {
+                "source": "https://github.com/primozcigler/wordpress-one-click-demo-install/tree/v0.4.1"
+            },
+            "time": "2015-08-17 08:52:11"
+        },
+        {
+            "name": "proteusthemes/proteuswidgets",
+            "version": "v2.1.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ProteusThemes/ProteusWidgets.git",
+                "reference": "a1fab1301613600fb72b640f6ae46001181d9607"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ProteusThemes/ProteusWidgets/zipball/a1fab1301613600fb72b640f6ae46001181d9607",
+                "reference": "a1fab1301613600fb72b640f6ae46001181d9607",
+                "shasum": ""
+            },
+            "require": {
+                "mustache/mustache": "~2.8"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "widgets/",
+                    "inc/",
+                    "proteuswidgets.php"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "WordPress widgets used in ProtuesThemes.",
+            "support": {
+                "source": "https://github.com/ProteusThemes/ProteusWidgets/tree/v2.1.15",
+                "issues": "https://github.com/ProteusThemes/ProteusWidgets/issues"
+            },
+            "time": "2015-09-03 11:12:54"
+        },
+        {
+            "name": "proteusthemes/visual-composer-elements",
+            "version": "v0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ProteusThemes/visual-composer-elements.git",
+                "reference": "bb1bb63b953f73e2e2d1e8b7c5f036a6b5718012"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ProteusThemes/visual-composer-elements/zipball/bb1bb63b953f73e2e2d1e8b7c5f036a6b5718012",
+                "reference": "bb1bb63b953f73e2e2d1e8b7c5f036a6b5718012",
+                "shasum": ""
+            },
+            "type": "library",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Gregor Capuder",
+                    "email": "gregor.capuder@proteusnet.com"
+                }
+            ],
+            "description": "Composer package with Visual Composer elements mapped to widgets from ProteusWidgets composer package",
+            "support": {
+                "source": "https://github.com/ProteusThemes/visual-composer-elements/tree/v0.3.0",
+                "issues": "https://github.com/ProteusThemes/visual-composer-elements/issues"
+            },
+            "time": "2015-08-21 09:56:14"
+        },
+        {
+            "name": "proteusthemes/wai-aria-walker-nav-menu",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ProteusThemes/WAI-ARIA-Walker_Nav_Menu.git",
+                "reference": "ee8ce91b408828a6f06f9535def807361a124380"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ProteusThemes/WAI-ARIA-Walker_Nav_Menu/zipball/ee8ce91b408828a6f06f9535def807361a124380",
+                "reference": "ee8ce91b408828a6f06f9535def807361a124380",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "aria-walker-nav-menu.php"
+                ]
+            },
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Primoz Cigler",
+                    "email": "primoz@proteusnet.com"
+                },
+                {
+                    "name": "Marko Prelec",
+                    "email": "marko.prelec@proteusnet.com"
+                }
+            ],
+            "description": "WordPress menu walker which adds appropriate WIA-ARIA roles to dropdown menus.",
+            "support": {
+                "source": "https://github.com/ProteusThemes/WAI-ARIA-Walker_Nav_Menu/tree/v1.1.1",
+                "issues": "https://github.com/ProteusThemes/WAI-ARIA-Walker_Nav_Menu/issues"
+            },
+            "time": "2015-05-26 12:29:13"
+        },
+        {
+            "name": "proteusthemes/wp-customizer-utilities",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ProteusThemes/wp-customizer-utilities.git",
+                "reference": "ff92773f40a4f4b5d448d39adedab77e7cb5808b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ProteusThemes/wp-customizer-utilities/zipball/ff92773f40a4f4b5d448d39adedab77e7cb5808b",
+                "reference": "ff92773f40a4f4b5d448d39adedab77e7cb5808b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Primoz Cigler",
+                    "email": "primoz@proteusnet.com"
+                },
+                {
+                    "name": "Gregor Capuder",
+                    "email": "gregor.capuder@proteusnet.com"
+                }
+            ],
+            "description": "Custom WordPress customizer controls and classes used in ProteusThemes",
+            "support": {
+                "source": "https://github.com/ProteusThemes/wp-customizer-utilities/tree/v1.1.1",
+                "issues": "https://github.com/ProteusThemes/wp-customizer-utilities/issues"
+            },
+            "time": "2015-05-26 13:21:04"
+        },
+        {
+            "name": "tgmpa/tgm-plugin-activation",
+            "version": "2.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TGMPA/TGM-Plugin-Activation.git",
+                "reference": "ba41c10e821a10d3d6c3b8e468a16716bb03f125"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TGMPA/TGM-Plugin-Activation/zipball/ba41c10e821a10d3d6c3b8e468a16716bb03f125",
+                "reference": "ba41c10e821a10d3d6c3b8e468a16716bb03f125",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "class-tgm-plugin-activation.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Griffin",
+                    "homepage": "http://thomasgriffinmedia.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Jones",
+                    "homepage": "https://github.com/GaryJones",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Juliette Reinders Folmer",
+                    "homepage": "https://github.com/jrfnl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "TGM Plugin Activation is a PHP library that allows you to easily require or recommend plugins for your WordPress themes (and plugins).",
+            "homepage": "http://tgmpluginactivation.com",
+            "keywords": [
+                "activation",
+                "library",
+                "plugins",
+                "theme",
+                "wordpress"
+            ],
+            "time": "2015-07-16 08:59:11"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
