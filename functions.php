@@ -143,8 +143,8 @@ if ( ! function_exists( 'cargopress_enqueue_scripts' ) ) {
 		// picturefill for the support of the <picture> element today
 		wp_enqueue_script( 'cargopress-picturefill', get_template_directory_uri() . '/bower_components/picturefill/dist/picturefill.min.js', array( 'cargopress-modernizr' ), '1.2.0' );
 
-		// google maps
-		wp_register_script( 'cargopress-gmaps', '//maps.google.com/maps/api/js?sensor=false', array(), null, true );
+		// google maps '//maps.google.com/maps/api/js?key=AIzaSyDNAQ-hct9Cv8gsn1mDDdYZWhx13JUnLPI'
+	//*	wp_register_script( 'cargopress-gmaps', '//maps.google.com/maps/api/js?key=AIzaSyDNAQ-hct9Cv8gsn1mDDdYZWhx13JUnLPI', array(), true );
 
 		// requirejs
 		wp_register_script( 'requirejs', get_template_directory_uri() . '/bower_components/requirejs/require.js', array(), null, true );
